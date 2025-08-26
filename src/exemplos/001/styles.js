@@ -1,17 +1,20 @@
 import { StyleSheet } from "react-native";
-    const styles=StyleSheet.create(
-        {  
-            container:{
-                flex:1,
-                backgroundColor:'#ff0',
-                    alignItems:'center',
-                    justifyContent:'center'
-            },
+import {RFPercentage, RFValue} from "react-native-responsive-fontsize";
+const styles=StyleSheet.create(
+    {  
+        container:{
+            flex:1,
+            backgroundColor:'#ff0',
+            alignItems:'center',
+            justifyContent:'center'},
+
         titulo:{
-            fontSize:25,
+            fontSize:RFPercentage(5),
             fontWeight:'bold',
-            color:'#777',
-        }
+            color:'#777'},
+        
+        txt:{
+            fontSize: RFPercentage(2.5)}
         }
     );
 export default styles;
