@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     container:{
         backgroundColor: 'deepskyblue',
         borderWidth: RFPercentage(0.6),
-        width: 8,
+        width: '90%',
         padding: 8,
         alignItems: 'center',
         borderRadius: 20, 
@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
         fontSize: RFPercentage(3),
         color: '#121212',
         fontWeight: 'bold',
+        textAlign: 'center',
         marginBottom: RFPercentage(1)
     },
     texto:{

@@ -4,19 +4,18 @@ import Constants from 'expo-constants';
 
 import Exemplo01 from './src/exemplos/001';
 import Exemplo02 from './src/exemplos/002';
-
 import Atividade01 from './src/atividades/atv01';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Exemplo02/>
-      <StatusBar styles="light"/>
+      <StatusBar style="light"/>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'yellow',
