@@ -11,9 +11,7 @@ const styles = StyleSheet.create({
     }, 
     titulo:{
         fontSize: RFPercentage(3),
-        COLOR: '#B388FF',
-        boderWidth: 2,
-        borderColor: '#90CAF9',
+        color: '#B388FF',
         marginTop: 10,
         marginBottom: 10,
         padding:8,
