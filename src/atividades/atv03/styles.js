@@ -10,30 +10,41 @@ const styles=StyleSheet.create(
             flex:1, 
             //Ocupa todo o espaço disponível na tela 
             alignItems:'center',
-            borderRadius:20
+            borderRadius:20,
+            justifyContent: 'space-evenly'
             //Deixa as bordas arredondadas.
             },
 
         titulo:{
             fontSize:RFPercentage(5),
-            color: 'deepskyblue',
+            color: '#4A148C',
             fontWeight:'bold',
             borderWidth:2,
-            borderColor:'deepskyblue',
+            borderColor:'#4A148C',
             marginTop:10,
             marginBottom:10,
             padding:8,
             width:'100%',
-            height:80,
+            heigth:80,
             textAlign:'center',
             textAlignVertical:'center',
             //somente no Android
-            borderRadius:20},
+        borderRadius:20},
         
         txt:{
             fontSize: RFPercentage(2.2)
             //Define um tamanho de fonte responsivo(2.2% da altura da tela)
-            }
+            },
+        botao: {
+            backgroundColor: '#777',
+            width: '60%',
+            borderRadius: RFPercentage(1),
+            padding: RFPercentage(1),
+            alignItems: 'center'},
+        txtBotao: {
+            color: '#4527A0',
+            fontSize: RFPercentage(2)
+        }
         }
     );
 export default styles;

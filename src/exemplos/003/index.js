@@ -9,8 +9,8 @@ export default function Exemplo03(){
     function handleIncrementar(){
         setNumero(numero+1);
         //console.log(numero);
-    }
-    
+    };
+
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo 3</Text>
@@ -26,11 +26,9 @@ export default function Exemplo03(){
                 style={styles.botao}
                 onPress={() => handleIncrementar()}
             >
-
                 <Text style={styles.txtBotao}>Incrementar número</Text>
-                
-                </TouchableOpacity>
-                
+            
+            </TouchableOpacity>
         </View>
     ); 
 }
