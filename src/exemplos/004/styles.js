@@ -36,6 +36,19 @@ const styles=StyleSheet.create(
             borderRadius: RFPercentage(1.5),
             pading: RFPercentage(2),
             textAlign: 'center'
+        },
+        botao: {
+            margin: RFPercentage(5),
+            backgroundColor: "purple",
+            width: '75%',
+            alignItems: 'center',
+            borderRadius: 20
+        },
+        txtbotao: {
+            color: 'white',
+            fontSize: RFPercentage(2),
+            margin: RFPercentage(2),
+            fontWeight: 'bold'
         }
         }
     );
