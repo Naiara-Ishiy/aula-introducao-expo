@@ -23,10 +23,12 @@ const styles = StyleSheet.create({
         color: '#fafafa'
     },
     imagem:{
-
+        height: RFPercentage(10),
+        width: RFPercentage(10),
+        resizeMode: 'strecht'
     },
     paragrafo:{
-        
+        width: '80%'
     }
     });
 export default styles;
