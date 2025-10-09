@@ -29,6 +29,6 @@ const styles = StyleSheet.create({
         //width: RFPercentage(20),
         width: '80%',
         resizeMode: 'contain'
-    }
+    },
 });
 export default styles;

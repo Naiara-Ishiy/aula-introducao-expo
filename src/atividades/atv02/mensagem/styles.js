@@ -27,8 +27,17 @@ const styles = StyleSheet.create({
         width: RFPercentage(10),
         resizeMode: 'strecht'
     },
-    paragrafo:{
-        width: '80%'
+    containImagem: {
+        width: '30%'
+    },
+    containTxt: {
+        width: '70%'
+    },
+    preco: {
+        fontSize: RFPercentage(2),
+        color: 'black',
+        fontWeight: 'bold',
+        marginBottom: RFPercentage(1)
     }
-    });
+});
 export default styles;
