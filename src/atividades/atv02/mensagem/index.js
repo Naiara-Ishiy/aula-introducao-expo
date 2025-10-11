@@ -8,9 +8,8 @@ function Mensagem02({texto, imagem}){
                 <Image source={imagem} style={styles.imagem}></Image>
             </View>
             <View style={styles.containTxt}>
-                <Text style={styles.titulo}>Atividade 2</Text>
+                <Text style={styles.titulo}>Me odeio</Text>
                 <Text style={styles.texto}>{texto}</Text>
-                <Text style={styles.preco}>{preco}</Text>
             </View>
         </View>
     );
