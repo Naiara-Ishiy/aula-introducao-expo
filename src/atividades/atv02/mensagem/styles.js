@@ -19,15 +19,16 @@ const styles = StyleSheet.create({
         marginBottom: RFPercentage(1)
     },
     texto:{
-        fontSize: RFPercentage(2.2),
-        color: '#fafafa'
+        fontSize: RFPercentage(2),
+        color: '#fafafa',
+        textAlign: 'justify'
     },
     imagem:{
-        height: RFPercentage(10),
-        width: RFPercentage(10),
+        height: RFPercentage(15),
+        width: RFPercentage(12),
         resizeMode: 'strecht'
     },
-    containImagem: {
+    containImg: {
         width: '30%'
     },
     containTxt: {

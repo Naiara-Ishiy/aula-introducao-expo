@@ -25,8 +25,6 @@ const styles = StyleSheet.create({
         borderRadius: 20
     },
     imagem:{
-        //height: RFPercentage(10),
-        //width: RFPercentage(20),
         width: '80%',
         resizeMode: 'contain'
     }});
