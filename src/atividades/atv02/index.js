@@ -15,9 +15,9 @@ function Atividade02(){
                 texto={'Ele é tão violento que tenta se proteger da chuvqa se escondendo na grama'}>
             </Mensagem02>
             <Mensagem02
-                imagem={giratina}
-                titulo={'aaaaaa'}
-                texto={'aaaa'}>
+                imagem={lunala}
+                titulo={'Lunala EX'}
+                texto={'Lindo. Perfeito. 0 defeitos.'}>
             </Mensagem02>
         </View>
     );
