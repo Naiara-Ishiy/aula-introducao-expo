@@ -44,7 +44,7 @@ const styles=StyleSheet.create(
             alignItems: 'center',
             borderRadius: 20
         },
-        txtbotao: {
+        txtBotao: {
             color: 'white',
             fontSize: RFPercentage(2),
             margin: RFPercentage(2),

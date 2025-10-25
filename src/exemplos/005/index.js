@@ -16,19 +16,21 @@ function Soma(){
     return(
         <View style={styles.container}>
             <Text style={styles.paragraph}>Exemplo 5</Text>
-            <Text style={styles.yxySalida}> Calculadora básica</Text>
+            <Text style={styles.txtSaida}> Calculadora básica</Text>
+
             <Text style={styles.textLabel}> 1º número </Text>
             <TextInput
-                style={SVGAnimatedNumberList.txtEntrada}
-                onChangeText={ (entrada) =>setN1(entrada)}
+                style={styles.txtEntrada}
+                onChangeText={(entrada) => setN1(entrada)}
                 value={n1}
             />
+
             <Text style={styles.txtSaida}> + </Text>
             
             <Text style={styles.textLabel}> 2º número </Text>
             <TextInput
             style={styles.txtEntrada}
-            onChangeText={ (entrada) => setN2(entrada)}
+            onChangeText={(entrada) => setN2(entrada)}
             />
 
             <Text style={[styles.txtSaida, {margin:0}]}> = </Text>
