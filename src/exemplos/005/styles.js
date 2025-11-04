@@ -14,7 +14,7 @@ const styles=StyleSheet.create(
             color: 'darkblue',
             fontWeight:'bold',
             borderWidth:2,
-            borderColor:'#BA68C8',
+            borderColor:'darkBlue',
             margin: RFPercentage(5),
             width:'90%',
             height:80,
@@ -43,26 +43,25 @@ const styles=StyleSheet.create(
             borderColor: 'white',
             height: RFPercentage(6),
             color: 'white',
-            width: '50%',
+            width: '30%',
             borderRadius: 10,
             marginTop: 10,
             marginBottom: 10,
-            pading: RFPercentage(2),
             textAlign: 'center'
         },
         button: {
-            margin: RFPercentage(5),
-            backgroundColor: "purple",
-            width: '75%',
-            alignItems: 'center',
-            borderRadius: 20
+            marginTop: 20,
+            backgroundColor: "cyan",
+            height: 40,
+            justifyContent: 'center',
+            borderRadius: 10
         },
-        txtbotao: {
+        txtbutton: {
             color: 'white',
             fontSize: RFPercentage(2),
             margin: RFPercentage(2),
             fontWeight: 'bold'
         }
-        }
-    );
+    }
+);
 export default styles;
